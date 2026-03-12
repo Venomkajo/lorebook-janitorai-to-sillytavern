@@ -11,8 +11,8 @@ def convert_array_to_dict(lorebook_array, lorebook_name, description):
         lorebook_entry = {
             "key": entry.get("key", []),
             "keysecondary": entry.get("keysecondary", []),
-            "comment": entry.get("name", ""),
-            "content": entry.get("content", ""),
+            "comment": entry.get("name", "").strip(),
+            "content": entry.get("content", "").strip(),
             "vectorized": entry.get("vectorized", False),
             "selective": entry.get("selective", False),
             "selectiveLogic": entry.get("selectiveLogic", 0),
