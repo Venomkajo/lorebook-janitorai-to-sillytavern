@@ -1,4 +1,4 @@
-# Lorebook Format Converter
+# Lorebook Formatter
 
 A simple Python utility for converting lorebook JSON files between different formats used by various AI roleplay frontends. Mainly designed to convert from JanitorAI format to SillyTavern format.
 
@@ -11,13 +11,14 @@ A simple Python utility for converting lorebook JSON files between different for
 ## Requirements
 
 - Python
+- JSON lorebooks in the expected format
 
 ## Usage
 
 Run the script:
 
 ```bash
-python convert_lorebook.py
+python lorebook_formatter.py
 ```
 
 Follow the prompts:
